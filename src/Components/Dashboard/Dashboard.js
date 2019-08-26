@@ -8,9 +8,9 @@ class Dashboard extends Component {
 
   render() {
 
-       let mapInventory = this.props.inventory.map((inventory, i) => {
-           return <Product key = {i} inventory ={inventory}/>
-       })
+    //    let mapInventory = this.props.inventory.map((inventory, i) => {
+    //        return <Product key = {i} inventory ={inventory}/>
+    //    })
   
     
     
@@ -21,7 +21,7 @@ class Dashboard extends Component {
             <Product />
          
             </div>
-            {mapInventory}
+            {/* // {mapInventory} */}
             </div>   
         )
     }
